@@ -1,5 +1,5 @@
 {
-  "name": "ws_server",
+  "name": "wsserver",
   "version": "1.0.0",
   "description": "Simple Web Socket Application for real time multi clien chat",
   "main": "index.js",
@@ -16,5 +16,14 @@
   "license": "ISC",
   "dependencies": {
     "ws": "^3.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ugurayan/SimpleWebSocketChatApplication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ugurayan/SimpleWebSocketChatApplication/issues"
+  },
+  "homepage": "https://github.com/ugurayan/SimpleWebSocketChatApplication#readme"
 }
