@@ -1,8 +1,10 @@
-var server = require('ws').Server;
-var s = new server({ port:3131 });
+const WebSocket = require('ws');
+const wss = new WebSocket.Server({ host: 'localhost', port:3131 });
 
-s.on('connection', function(){
-    ws.on('message', function(message){
-        console.log('Received message is :' + message);
+wss.on('connection', function connection(ws){
+    ws.on('message', function incoming(message){
+        console.log('Received message is %s', message);
     });
+
+    ws.send('OK baby');
 });
