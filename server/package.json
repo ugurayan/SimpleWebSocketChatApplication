@@ -1,0 +1,20 @@
+{
+  "name": "ws_server",
+  "version": "1.0.0",
+  "description": "Simple Web Socket Application for real time multi clien chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "websocket",
+    "ugur",
+    "ayan"
+  ],
+  "author": "Ugur Ayan",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^3.3.0"
+  }
+}
